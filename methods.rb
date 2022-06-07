@@ -24,4 +24,21 @@ end
 def Names (names)
     puts "Hello #{names}.I hope ur tuesday is good."
 end
-Names ("Junior")   
+Names ("Junior")  
+# If you accidentally switch the puts with the return value
+def broken_print_and_return_name
+    "Bob Ross"
+    puts "Bob Ross"
+end
+broken_print_and_return_name
+# The method would instead print "Bob Ross" and return nil. This is because the last line that was evaluated was puts ... and the return value of a #puts is always nil.
+# Return key word
+def stylish_painter
+    best_hairstyle = "Bob Ross"
+    return "Jean-Michel Basquiat"
+    best_hairstyle
+  end
+  
+  stylish_painter
+#   the return value of the above method is actually Jean-Michel Basquiat! The return keyword will disrupt the execution of your method, and prevent Ruby from running any lines of code after the return keyword.
+
