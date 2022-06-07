@@ -4,3 +4,5 @@ def myFunction (param)
     puts param + 1
 end
 myFunction(4)
+# Parenthesis are optional in js
+# We can always provide default parameters
