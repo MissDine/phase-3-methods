@@ -65,5 +65,13 @@ def add (num1, num2)
 end
 puts add(1,2)
 
+def halve(number)
+    if number.class == Integer
+        return number/2
+    end
+end
+puts halve('hu')    
+
+
 
   
