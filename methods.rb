@@ -5,4 +5,8 @@ def myFunction (param)
 end
 myFunction(4)
 # Parenthesis are optional in js
-# We can always provide default parameters
+# We can always provide default arguments -Enid here is a default argument just in case another is ot passed
+def Greetings (name = "Enid")
+    puts name
+end
+Greetings("Norbert")    
