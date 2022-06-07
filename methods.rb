@@ -1,9 +1,9 @@
 # Your code here!
-def myFunction (param)
+def my_function (param)
     puts "Running myFunction"
     puts param + 1
 end
-myFunction(4)
+my_function(4)
 # Parenthesis are optional in js
 # We can always provide default arguments -Enid here is a default argument just in case another is ot passed
 def Greetings (name = "Enid")
@@ -42,3 +42,28 @@ def stylish_painter
   stylish_painter
 #   the return value of the above method is actually Jean-Michel Basquiat! The return keyword will disrupt the execution of your method, and prevent Ruby from running any lines of code after the return keyword.
 
+def greet_programmer
+    puts "Hello, programmer!"
+end
+greet_programmer  
+
+def greet(name)
+    puts "Hello, #{name}!"
+end
+greet("Naureen")    
+def greet_with_default(name = "programmer")
+    puts "Hello, #{name}!"
+    name
+end
+greet_with_default 
+greet_with_default("Sunny") 
+
+def add (num1, num2)
+    puts num1
+    puts num2
+    num1 + num2
+end
+puts add(1,2)
+
+
+  
