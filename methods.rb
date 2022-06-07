@@ -7,6 +7,7 @@ myFunction(4)
 # Parenthesis are optional in js
 # We can always provide default arguments -Enid here is a default argument just in case another is ot passed
 def Greetings (name = "Enid")
-    puts name
+    puts "Good morning #{name}"
 end
-Greetings("Norbert")    
+Greetings("Christa") 
+Greetings("Norbert")   
